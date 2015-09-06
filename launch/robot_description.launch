@@ -1,0 +1,11 @@
+<launch>
+  <param name="robot_description"
+    command="$(find xacro)/xacro.py '$(find zach_gazebo_nav)/urdf/adv_robotics_mobile.xacro'" />
+<!--
+  <param name="robot_description"
+    command="$(find xacro)/xacro.py '$(find zach_gazebo_nav)/urdf/turtlebot.urdf.xacro'" />
+-->
+
+
+</launch>
+
