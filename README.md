@@ -1,5 +1,6 @@
 # zach_gazebo_nav 
 
+##No gazebo, only rviz
 ##it's 2D navigation display using rviz,move_base's local planner and global planner to send msg for /cmd_ve topic ,and use adv_robotic's base_controller to pick up the command and feedback the /tf and /odom to base_controller
 
 ## command 1
